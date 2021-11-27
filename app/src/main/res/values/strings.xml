@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">PokemonWeekSevenTask</string>
     <string name="denny_green_pokemon">Denny Green Pokemon</string>
+    <string name="denny_green">Denny Green</string>
+    <string name="pokemon">Pokemon</string>
+    <string name="my_pokemon">My Pokemon</string>
 </resources>
