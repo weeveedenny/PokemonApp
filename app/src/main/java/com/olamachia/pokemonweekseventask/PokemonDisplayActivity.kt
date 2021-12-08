@@ -42,6 +42,8 @@ class PokemonDisplayActivity : AppCompatActivity(), ClickListener {
         liveData.observe(this) { isAvailable ->
             when (isAvailable) {
                 true -> {
+                    Toast.makeText(this, "Network Available", Toast.LENGTH_LONG).show()
+                    loadAllPokemon()
 
                 }
                 false -> {
