@@ -7,4 +7,11 @@
     <color name="light_silver">#D1D0CE</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="grey">#d7d8cc</color>
+    <color name="off"> #f8f9f9</color>
+    <color name="dark">#566573</color>
+    <color name="lighter">#d5d8dc</color>
+
+
+
 </resources>

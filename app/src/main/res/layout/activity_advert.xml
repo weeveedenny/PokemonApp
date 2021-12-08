@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".AdvertActivity">
+    tools:context=".ui.activities.AdvertActivity">
 
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/animationView"
+        android:id="@+id/activity_advert_animationView"
         android:layout_width="0dp"
         android:layout_height="550dp"
         android:layout_marginBottom="20dp"
@@ -21,14 +21,15 @@
 
 
     <TextView
+        android:id="@+id/activity_advert_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="44dp"
-        android:fontFamily="sans-serif-condensed"
-        android:text="@string/my_pokemon"
+        android:fontFamily="cursive"
+        android:text=  "@string/my_pokemon_task"
         android:textColor="@color/black"
         android:textSize="40sp"
-        android:textStyle="bold"
+        android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

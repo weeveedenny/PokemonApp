@@ -4,4 +4,12 @@
     <string name="denny_green">Denny Green</string>
     <string name="pokemon">Pokemon</string>
     <string name="my_pokemon">My Pokemon</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_pokemon_task">My Pokemon Task</string>
+    <string name="abilities">Abilities</string>
+    <string name="moves">Moves</string>
+    <string name="stats">Stats</string>
+    <string name="request_permission">Request Permission</string>
+    <string name="sorry_you_can_not_upload_images_without_permisison">Sorry you can not upload images without permisison</string>
+    <string name="upload_image">Upload Image</string>
 </resources>

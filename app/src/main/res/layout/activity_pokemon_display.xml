@@ -4,35 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MyRecyclerViewActivity">
+    tools:context=".PokemonDisplayActivity">
+
 
     <androidx.appcompat.widget.SearchView
-        android:id="@+id/myRecyclerViewActivity_searchView"
+        android:id="@+id/pokemon_display_searchView"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+
         android:background="@drawable/item_background"
-        app:backgroundTint="@color/light_silver"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:queryHint="Search Characters" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/pokemon_recyclerView"
+        android:id="@+id/pokemon_display_recyclerView"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_marginStart="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="20dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="5dp"
         android:background="@drawable/item_background"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="@color/light_silver"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/myRecyclerViewActivity_searchView" />
+        app:layout_constraintTop_toBottomOf="@id/pokemon_display_searchView"
+        tools:listitem="@layout/pokemon_display_layout" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
