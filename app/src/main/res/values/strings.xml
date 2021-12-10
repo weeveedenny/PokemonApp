@@ -12,4 +12,6 @@
     <string name="request_permission">Request Permission</string>
     <string name="sorry_you_can_not_upload_images_without_permisison">Sorry you can not upload images without permisison</string>
     <string name="upload_image">Upload Image</string>
+    <string name="denny_pokemon_task">Denny Pokemon Task</string>
+    <string name="denny_pokemon_app">Denny Pokemon app</string>
 </resources>

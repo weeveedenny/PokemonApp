@@ -8,6 +8,7 @@
     tools:context=".ui.activities.PokemonDetailsFragment">
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/fragment_pokemon_details_cardView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_marginStart="7dp"
@@ -33,7 +34,7 @@
                 android:layout_marginStart="10dp"
                 android:elevation="20dp"
                 android:fontFamily="@font/aclonica"
-                android:text="textviw"
+                android:text=""
                 android:textColor="@color/dark"
                 android:textSize="45sp"
                 android:textStyle="bold"

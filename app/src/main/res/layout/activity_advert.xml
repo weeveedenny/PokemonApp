@@ -17,7 +17,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:lottie_autoPlay="false"
         app:lottie_loop="false"
-        app:lottie_rawRes="@raw/pokemon_advert" />
+        app:lottie_rawRes="@raw/lf20_ffv0i7hl" />
 
 
     <TextView
@@ -27,7 +27,7 @@
         android:layout_marginBottom="44dp"
         android:fontFamily="cursive"
         android:text=  "@string/my_pokemon_task"
-        android:textColor="@color/black"
+        android:textColor="@color/dark"
         android:textSize="40sp"
         android:textStyle="normal"
         app:layout_constraintBottom_toBottomOf="parent"

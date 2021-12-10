@@ -1,5 +1,6 @@
 package com.olamachia.pokemonweekseventask.ui.activities
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
@@ -7,6 +8,7 @@ import android.os.Looper
 import android.view.View
 import android.view.animation.AnimationUtils
 import com.airbnb.lottie.LottieAnimationView
+import com.olamachia.pokemonweekseventask.PokemonDisplayActivity
 import com.olamachia.pokemonweekseventask.R
 
 class AdvertActivity : AppCompatActivity() {
@@ -19,7 +21,7 @@ class AdvertActivity : AppCompatActivity() {
             animationView.playAnimation()
 
             Handler(Looper.getMainLooper()).postDelayed({
-//                intent = Intent(this, MyRecyclerViewActivity::class.java)
+               intent = Intent(this, PokemonDisplayActivity::class.java)
                 startActivity(intent)
             },7000)
         }, 5000)

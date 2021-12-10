@@ -66,11 +66,11 @@ class PokemonDetailsFragment : Fragment() {
                 .observeOn(io.reactivex.android.schedulers.AndroidSchedulers.mainThread())
                 .subscribe {
                     Log.d("message", it.toString())
-                    val pokemonName = view?.findViewById<TextView>(R.id.pokemon_details_name_textView)
+                    val pokemonName = view.findViewById<TextView>(R.id.pokemon_details_name_textView)
                     pokemonName?.text = it.species.name
-                    abilityRecyclerView = view!!.findViewById(R.id.pokemon_abilities_recyclerview)
-                    moveRecyclerView = view!!.findViewById(R.id.moves_recyclerview)
-                    statRecyclerView = view!!.findViewById(R.id.stats_recyclerview)
+                    abilityRecyclerView = view.findViewById(R.id.pokemon_abilities_recyclerview)
+                    moveRecyclerView = view.findViewById(R.id.moves_recyclerview)
+                    statRecyclerView = view.findViewById(R.id.stats_recyclerview)
 
                     val statAdapter =  PokemonStatAdapter(it.stats)
                     val abilitiesAdapter = PokemonAbilitiesAdapter(it.abilities)

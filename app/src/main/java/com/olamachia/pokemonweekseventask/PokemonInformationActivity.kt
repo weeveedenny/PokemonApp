@@ -23,7 +23,6 @@ class PokemonInformationActivity : AppCompatActivity() {
         transaction.replace(R.id.fragment_container, fragment)
         transaction.addToBackStack(null)
         transaction.commit()
-
     }
 
     override fun onBackPressed() {

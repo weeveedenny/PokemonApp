@@ -1,4 +1,4 @@
-package com.decagon.android.sq007.SecondImplementation
+package com.olamachia.pokemonweekseventask
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
