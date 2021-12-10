@@ -17,7 +17,6 @@ class PokemonInformationActivity : AppCompatActivity() {
         addFragmentToActivity(PokemonDetailsFragment())
     }
 
-
     private fun addFragmentToActivity(fragment : Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.fragment_container, fragment)

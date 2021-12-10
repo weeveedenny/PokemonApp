@@ -11,8 +11,6 @@ import com.olamachia.pokemonweekseventask.R
 class UploadImageFragment : Fragment() {
     private lateinit var uploadButton : Button
 
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -33,7 +31,6 @@ class UploadImageFragment : Fragment() {
 
     uploadButton = view.findViewById(R.id.fragment_uploadImage_button)
         uploadButton.setOnClickListener {
-
         }
     }
 

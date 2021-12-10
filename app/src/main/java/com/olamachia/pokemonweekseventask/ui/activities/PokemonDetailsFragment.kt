@@ -98,6 +98,7 @@ class PokemonDetailsFragment : Fragment() {
     }
 
 
+
     private fun addFragmentToActivity(fragment : Fragment) {
         val transaction =  fragmentManager?.beginTransaction() // ---------------------------
         transaction?.replace(R.id.fragment_container, fragment)
