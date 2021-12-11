@@ -19,7 +19,6 @@ import com.olamachia.pokemonweekseventask.adapters.PokemonAbilitiesAdapter
 import com.olamachia.pokemonweekseventask.adapters.PokemonMovesAdapter
 import com.olamachia.pokemonweekseventask.adapters.PokemonStatAdapter
 
-
 class PokemonDetailsFragment : Fragment() {
 
     private lateinit var abilityRecyclerView: RecyclerView
@@ -96,7 +95,6 @@ class PokemonDetailsFragment : Fragment() {
         }
 
     }
-
 
 
     private fun addFragmentToActivity(fragment : Fragment) {

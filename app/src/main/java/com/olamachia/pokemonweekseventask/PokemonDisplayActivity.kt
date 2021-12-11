@@ -117,7 +117,6 @@ class PokemonDisplayActivity : AppCompatActivity(), ClickListener {
         liveData.observe(this) { isAvailable ->
             when (isAvailable) {
                 true -> {
-
                     loadAllPokemon()
                 }
                 false -> {

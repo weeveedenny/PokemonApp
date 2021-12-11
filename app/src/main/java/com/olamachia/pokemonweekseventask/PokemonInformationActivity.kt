@@ -5,8 +5,6 @@ import android.os.Bundle
 import androidx.fragment.app.Fragment
 import com.olamachia.pokemonweekseventask.ui.activities.PokemonDetailsFragment
 
-
-
 class PokemonInformationActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
