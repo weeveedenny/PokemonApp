@@ -7,7 +7,7 @@ import android.net.Network
 import android.net.NetworkRequest
 import androidx.lifecycle.LiveData
 
-class LiveData(private val connectivityManager:ConnectivityManager):LiveData<Boolean>() {
+class NetworkAvailabilityCheck(private val connectivityManager:ConnectivityManager):LiveData<Boolean>() {
     override fun onActive(){
         super.onActive()
         val builder = NetworkRequest.Builder()
